@@ -31,7 +31,7 @@
     self.customTabContainer = [nibObjects objectAtIndex:0];
     self.customTabContainer.frame = CGRectMake(0, self.view.frame.size.height-self.customTabContainer.frame.size.height, self.customTabContainer.frame.size.width, self.customTabContainer.frame.size.height);
     [self.view addSubview:self.customTabContainer];
-    
+    [self selectedTab:self.customTabContainer.subviews[0]];
 }
 - (void)didReceiveMemoryWarning
 {
@@ -47,6 +47,13 @@
 }
 - (IBAction)selectedTab:(id)sender {
     UIButton *tabBtn = (UIButton *)sender;
+	[self.customTabContainer.subviews enumerateObjectsUsingBlock:^(UIButton *btnObj, NSUInteger idx, BOOL *stop) {
+        if (idx == tabBtn.tag) {
+            [btnObj setSelected:NO];
+        }else {
+            [btnObj setSelected:YES];
+        }
+    }];
     [self setSelectedIndex:tabBtn.tag];
 }
 @end
