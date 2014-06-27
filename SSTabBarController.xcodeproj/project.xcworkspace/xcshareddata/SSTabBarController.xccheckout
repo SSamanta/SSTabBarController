@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>516018AD-6E32-4B16-92DD-525E5F4CA40E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SSTabBarController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>72148D34-1FCD-41A8-BC83-92CA62DEA08C</key>
+		<string>https://github.com/SSamanta/SSTabBarController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SSTabBarController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>72148D34-1FCD-41A8-BC83-92CA62DEA08C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SSamanta/SSTabBarController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>72148D34-1FCD-41A8-BC83-92CA62DEA08C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>72148D34-1FCD-41A8-BC83-92CA62DEA08C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SSTabBarController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
